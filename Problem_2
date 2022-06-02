@@ -1,0 +1,24 @@
+ Code an algorithm in JavaScript that takes three integers and decides if one of them matches the sum of the other two.
+ 
+ <script>function saltarlinea() {
+ document.write("<br>");
+ document.write("<br>");
+ document.write("<br>");
+ }
+ 
+ function imprimir(frase) {
+ document.write (frase)
+ saltarlinea()
+ }
+ var nuemro1=parseInt (prompt(" informe primer nuemro"));
+ var nuemro2=parseInt (prompt(" informe segundo numero"));
+ var numero3=parseInt (prompt(" informe tercer nuemro"));
+ if (nuemro1 == nuemro2+numero3){
+ imprimir ("la suma del segundo numero y el terceo coinsiden con el primer numero ingresado ");
+ }if (nuemro2 == nuemro1+numero3){
+ imprimir ("la suma del primer numero y el terceo coinsiden con el segundo numero ingresado ");    
+ }
+ if (nuemro3 == nuemro1+numero2){
+ imprimir ("la suma del primer numero y el segundo coinsiden con el tercer numero ingresado ");    
+ }
+ </script>
