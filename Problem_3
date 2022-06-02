@@ -1,0 +1,27 @@
+Code in JavaScript an algorithm that prints and adds the series of numbers that are multiples of 3 up to 100, that is, 3, 6, 9, 12, ... 99 (use loops). 
+Trace for the first 5 iterations
+
+
+<script>
+
+function imprimir(frase) {
+document.write (frase)
+saltarlinea() 
+}
+function multiple(valor, multiple)
+{ 
+resto = valor % multiple;
+if(resto==0)
+return true; 
+else 
+return false; 
+}
+var multiples_3=[]; 
+for(var i=1;i<=21;i++) 
+{
+if(multiple(i,3))
+multiples_3.push(i);
+}
+document.write("Los multiplos de 3 son: ",multiples_3);
+
+</script>
