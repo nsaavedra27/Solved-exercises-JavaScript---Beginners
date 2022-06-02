@@ -1,0 +1,13 @@
+Una   temperatura   Celsius   (centígrados)   puede   ser   convertida   a   una  
+temperaturaequivalente Fahrenheit de acuerdo con la siguiente fórmula:Codifique en JavaScript 
+un algoritmo que lea la temperatura en grados Celsius y la escribaen Fahrenheit
+
+<script>
+
+function convertirAF(celsius){
+let fahrenheit;
+fahrenheit=(celsius*9/5)+32;
+return fahrenheit;}
+console.log(convertirAF(-10)); 
+
+</script>
