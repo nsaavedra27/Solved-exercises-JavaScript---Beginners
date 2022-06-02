@@ -1,0 +1,15 @@
+Code an algorithm in JavaScript that adds even numbers between 50 and 200, inclusive.
+
+<meta charset="UTF 8"> 
+<HTML>
+<HEAD>
+<TITLE>NUEMROS_PARES</TITLE>
+</HEAD>
+<BODY onload="nuemros_pares();">
+<SCRIPT type="text/javascript">function nuemros_pares() {var contador = new Number();
+for (contador=50;contador<=200;contador++) 
+{if (contador%2==0)
+{document.write("   el   numero   ",contador,"   espar",'<BR/>');}}}
+</SCRIPT>
+</BODY>
+</HTML>
