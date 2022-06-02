@@ -1,0 +1,20 @@
+Code in JavaScript an algorithm that reads the time of day in 24-hour notation and the response in 12-hour notation, for example, 
+if the input is 13, the output will be 1 p.m.
+
+<br><script>var h =parseInt (prompt("digite una hora entre 0 y 24"));
+var m =parseInt (prompt("digite un minuto entre 0 y 60"));
+var meridiano
+
+function imprimir(frase) {
+document.write (frase)
+}
+if (h>12) {
+h = h-12;
+meridiano = "p.m.";
+} 
+else
+{meridiano = "a.m.";
+}
+imprimir(h+":"+m+meridiano);
+
+</script>
