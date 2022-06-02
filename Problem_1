@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+  <head>
+        <h2>Problem 1</h2>
+  </head>
+
+  <body>
+    <p id="demo">Code in JavaScript an algorithm that takes three numbers and if the first one is positive calculates the product of the other two, and otherwise calculates the sum and displays the result on the screen.</p>
+    
+  </body>
+  <script>
+    function resultProduct(num1,num2){
+      product (num1)*(num2);
+      return(product);
+      var num1 = parseInt (prompt(" Ingrese num1 "))       
+      var num2 = parseInt (prompt(" Ingrese num2 "))
+      var num3 = parseInt (prompt(" Ingrese num3 "))
+      
+      product = resultProduct(num2,num3)
+      
+    if (num1 > 0){ 
+      imprimir ((" The product of the first number and second number is ")+(product));    
+    }
+    
+    if (num1 <0){ 
+      imprimir (("The sum of the three numbers is ")+((num1+num2)+(num3)));
+    }
+
+  </script>
+</html>
