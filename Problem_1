@@ -25,6 +25,5 @@
     if (num1 <0){ 
       imprimir (("The sum of the three numbers is ")+((num1+num2)+(num3)));
     }
-
   </script>
 </html>
